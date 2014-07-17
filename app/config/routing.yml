@@ -1,0 +1,4 @@
+school_hello:
+    resource: "@SchoolHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+

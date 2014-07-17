@@ -1,0 +1,6 @@
+school_hello_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SchoolHelloBundle:Default:index }
+school_hello:
+    path:     /
+    defaults: { _controller: SchoolHelloBundle:Hello:hello }
