@@ -13,7 +13,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class HelloController extends  Controller{
     public function helloAction(){
-        //return template
+        //return template hello
         return $this->render('SchoolHelloBundle:Hello:hello.html.twig');
 }
 }
